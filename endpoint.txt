@@ -1,0 +1,27 @@
+GETS:
+
+User Login:
+www.planetrank.com/login
+
+
+Images:
+api/images
+api/images/{img_id}   // Get single image info (url, details...)
+api/images/{img_id}/comments // Get all comments of 1 image
+api/images/{img_id}/comments/{com_id}  get a single comment from an image
+
+
+Exoplanets:
+api/exoplanets          // get all exoplanets
+api/exoplanets/{exo_id}     // get all info for 1 exoplanet
+api/exoplanets/{exo_id}/comments  // get all comments from exoplanet record
+api/
+
+
+
+POST:
+
+Images:
+api/images/{img_id}/comments/{user_id}   // add comment from user
+api/exoplanets/{exo_id}/comments/
+
